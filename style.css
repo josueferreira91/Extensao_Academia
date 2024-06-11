@@ -79,7 +79,7 @@ body {
 }
 
 .animacaobotao:hover {
-    background-color: black;
+    background-color: lightsalmon;
     color: white;
 }
 
@@ -112,10 +112,10 @@ li a:hover {
 /*****************************Página Sobre***********************************/
 .sobre {
     margin: 3% 8%;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
     text-align: center;
-    gap: 5px;
+    gap: 1px;
 }
 
 .sobre__sobre {
@@ -126,11 +126,11 @@ li a:hover {
     padding: 10px;
     margin: 4px;
     border-radius: 10px;
-    width: 100%;
+    width: 98%;
     font-family: "Stick No Bills", sans-serif;
-    font-size: 140%;
+    font-size: 120%;
     opacity: 85%;
-    line-height: 140%;
+    line-height: 110%;
     box-shadow: 1px 5px 15px black;
 
 }
@@ -217,23 +217,21 @@ li a:hover {
 /*****************************PAGINA SERVIÇOS***********************************/
 
 .servico {
-    margin: 3% 25%;
+    margin: 3% 30%;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 5px;
+    gap: 1px;
 }
 
 .servico__video {
-    background-color: black;
     color: white;
     text-align: justify;
     height: 100%;
     padding: 10px;
     margin: 4px;
     border-radius: 10px;
-    width: 26, 5%;
-    box-shadow: 1px 5px 15px black;
+    width: 16, 2%; 
 
 }
 
@@ -247,7 +245,7 @@ li a:hover {
     border-radius: 10px;
     width: 26, 5%;
     font-family: "Stick No Bills", sans-serif;
-    font-size: 125%;
+    font-size: 130%;
     line-height: 100%;
     box-shadow: 1px 5px 15px black;
 
